@@ -4,9 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta
->
 name="description"
-content="Formulir prototipe untuk mencatat makanan berlebih yang akan ditawarkan melalui SisaBaik."
+content="Formulir prototipe untuk mencatat makanan berlebih yang akan ditawarkan melalui SisaBaik.">
 <title>Tawarkan Makanan | SisaBaik</title>
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -37,23 +36,21 @@ Tawarkan makanan
 <p class="required-note" id="petunjuk-wajib">Kolom bertanda <strong>*</strong> wajib diisi.</p>
 </div>
 <form
->
 class="form-card"
 action="tawarkan-makanan.html"
 method="get"
-aria-describedby="petunjuk-wajib"
+aria-describedby="petunjuk-wajib"></form>
 <fieldset class="form-section">
 <legend>Identitas makanan</legend>
 <p>
 <label for="nama-makanan">Nama makanan *</label><br>
 <input
->
 type="text"
 id="nama-makanan"
 name="nama_makanan"
 minlength="3"
 maxlength="120"
-required
+required>
 </p>
 <p>
 <label for="kategori">Kategori *</label><br>
@@ -88,14 +85,13 @@ Jelaskan isi, kondisi, waktu produksi, dan alasan menjadi stok berlebih.
 <p>
 <label for="jumlah">Jumlah tersedia *</label><br>
 <input
->
 type="number"
 id="jumlah"
 name="jumlah"
 min="1"
 max="1000"
 step="1"
-required
+required>
 </p>
 <p>
 <label for="satuan">Satuan *</label><br>
@@ -134,11 +130,10 @@ required
 </p>
 <p>
 <input
->
 type="radio"
 id="jenis-donasi"
 name="jenis_penawaran"
-value="donasi"
+value="donasi">
 <label for="jenis-donasi">Disalurkan tanpa biaya</label>
 </p>
 </fieldset>
@@ -164,11 +159,10 @@ Isi O jika makanan disalurkan tanpa biaya. Perbandingan dengan harga normal akan
 <p>
     <label for="batas-pengambilan">Batas waktu pengambilan *</label><br>
 <input
->
 type="datetime-local"
 id="batas-pengambilan"
 name="batas_pengambilan"
-required
+required>
 </p>
 <p>
 <label for="petunjuk-penyimpanan">Petunjuk penyimpanan *</label><br>
@@ -217,12 +211,11 @@ required
 <legend>Konfirmasi keamanan pangan</legend>
 <p>
 <input
->
 type="checkbox"
 id="konfirmasi-keamanan"
 name="konfirmasi_keamanan"
 value="terkonfirmasi"
-required
+required>
 <label for="konfirmasi-keamanan">
 Saya memastikan contoh makanan ini masih layak konsumsi dan informasi kondisi serta alergennya telah ditulis dengan jujur. *
 </label>

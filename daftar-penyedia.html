@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta
->
+
 name="description"
-content="Formulir prototipe untuk mendaftarkan usaha sebagai penyedia makanan di SisaBaik."
+content="Formulir prototipe untuk mendaftarkan usaha sebagai penyedia makanan di SisaBaik.">
 <title>Daftar Penyedia | SisaBaik</title>
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -38,24 +38,23 @@ server dan basis data.
 <p class="required-note" id="petunjuk-wajib">Kolom bertanda <strong>*</strong> wajib diisi.</p>
 </div>
 <form
->
 class="form-card"
 action="daftar-penyedia.html"
 method="get"
-aria-describedby="petunjuk-wajib"
+aria-describedby="petunjuk-wajib">
 <fieldset class="form-section">
 <legend>Informasi usaha</legend>
 <p>
 <label for="nama-usaha">Nama usaha *</label><br>
 <input
->
+
 type="text"
 id="nama-usaha"
 name="nama_usaha"
 autocomplete="organization"
 minlength="3"
 maxlength="100"
-required
+required>
 </p>
 <p>
 <label for="jenis-usaha">Jenis usaha *</label><br>
@@ -88,14 +87,14 @@ Jelaskan jenis produk dan jam operasional, maksimal 500 karakter.
 <p>
 <label for="nama-penanggung-jawab">Nama lengkap *</label><br>
 <input
->
+
 type="text"
 id="nama-penanggung-jawab"
 name="nama_penanggung_jawab"
 autocomplete="name"
 minlength="3"
 maxlength="100"
-required
+required>
 </p>
 <p>
 <label for="email">Alamat email *</label><br>
@@ -144,24 +143,24 @@ required
 <p>
 <label for="kota">Kabupaten atau kota *</label><br>
 <input
->
+
 type="text"
 id="kota"
 name="kota"
 autocomplete="address-level2"
 maxlength="100"
-required
+required>
 </p>
 <p>
 <label for="provinsi">Provinsi *</label><br>
 <input
->
+
 type="text"
 id="provinsi"
 name="provinsi"
 autocomplete="address-level1"
 maxlength="100"
-required
+required>
 </p>
 <p>
 <label for="kode-pos">Kode pos *</label><br>
@@ -182,12 +181,11 @@ required
 <legend>Persetujuan</legend>
 <p>
 <input
->
 type="checkbox"
 id="persetujuan"
 name="persetujuan"
 value="setuju"
-required
+required>
 <label for="persetujuan">
 Saya menyatakan bahwa informasi latihan ini tidak menggunakan
 data pribadi atau data usaha yang sebenarnya. *
