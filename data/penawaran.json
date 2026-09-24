@@ -1,0 +1,8 @@
+[
+    {"id":1,"nama":"Paket roti campur","kategori":"roti-kue","labelKategori":"Roti dan kue","penyedia":"Toko Roti Contoh","stok":8,"satuan":"paket","hargaNormal":25000,"hargaPenawaran":10000,"batas":"2026-09-03T18:00:00+07:00"},
+    {"id":2,"nama":"Nasi dan lauk harian","kategori":"makanan-siap-saji","labelKategori":"Makanan siap saji","penyedia":"Dapur Contoh","stok":6,"satuan":"porsi","hargaNormal":30000,"hargaPenawaran":15000,"batas":"2026-09-03T19:00:00+07:00"},
+    {"id":3,"nama":"Paket buah matang","kategori":"buah-sayur","labelKategori":"Buah dan sayur","penyedia":"Toko Buah Contoh","stok":4,"satuan":"paket","hargaNormal":18000,"hargaPenawaran":0,"batas":"2026-09-03T17:30:00+07:00"},
+    {"id":4,"nama":"Donat sisa hari ini","kategori":"roti-kue","labelKategori":"Roti dan kue","penyedia":"Kedai Manis Contoh","stok":10,"satuan":"kotak","hargaNormal":30000,"hargaPenawaran":12000,"batas":"2026-09-03T20:00:00+07:00"},
+    {"id":5,"nama":"Ayam dan nasi","kategori":"makanan-siap-saji","labelKategori":"Makanan siap saji","penyedia":"Warung Contoh","stok":5,"satuan":"porsi","hargaNormal":25000,"hargaPenawaran":10000,"batas":"2026-09-03T19:30:00+07:00"},
+    {"id":6,"nama":"Sayur segar campur","kategori":"buah-sayur","labelKategori":"Buah dan sayur","penyedia":"Kebun Segar Contoh","stok":7,"satuan":"paket","hargaNormal":20000,"hargaPenawaran":8000,"batas":"2026-09-03T18:30:00+07:00"}
+]
